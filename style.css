@@ -1,5 +1,5 @@
 body {
-    background-color: paleturquoise;
+    background-color: lightgray;
 }
 
 .mini-word {
@@ -12,6 +12,7 @@ body {
     width: 50%;
     align-self: center;
     padding: 10px;
+    background-color: aliceblue;
 }
 
 #label {

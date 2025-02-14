@@ -9,6 +9,13 @@ function setColor() {
 function setSize() {
     const size = document.getElementById("size");
 
+    if (size.value == 0) {
+        size.value = 1;
+    }
+    if (size.value > 100) {
+        size.value = 100;
+    }
+
     l.style.fontSize = size.value + "px";
 }
 
